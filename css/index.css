@@ -5,7 +5,7 @@
 
 body {
 
-    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size:medium;
     height:100%;
     margin:0px;
@@ -15,7 +15,18 @@ body {
     text-align: center;
 }
 
-
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.eot');
+    src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Medium.woff2') format('woff2'),
+        url('Montserrat-Medium.woff') format('woff'),
+        url('Montserrat-Medium.ttf') format('truetype'),
+        url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
 h1 {
     font-size:24px;
@@ -36,6 +47,7 @@ h1 {
     background-image: url("img/");
     background-size: auto 80%;
     background-repeat: no-repeat;
+    background-color: #b0d1cc;
 }
 
 #content {
@@ -72,7 +84,7 @@ h1 {
 
 #foot {
     height: 60px;
-    background-image: url(img/mSchools.png);
+    background-image: url(img/logo_letra_blanco.png);
     background-size: auto 80%;
     background-repeat: no-repeat;
     position: absolute;
@@ -80,6 +92,6 @@ h1 {
     left: 0;
     right:0;
     z-index:1000;
+    background-color: #b0d1cc;
 
 }
- 
